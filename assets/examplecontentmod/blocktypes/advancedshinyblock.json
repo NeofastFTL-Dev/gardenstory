@@ -1,0 +1,42 @@
+{
+	code: "advancedshinyblock",
+	creativeinventory: { "general": ["*"] },
+	variantgroups: [
+		{ code: "type", states: ["gold", "iron"] },
+		{ code: "condition", states: ["good", "used"]}
+	],
+	shapebytype: {
+		"*-good": {
+			base: "block/shinymodel1",
+		},
+		"*-used": {
+			base: "block/shinymodel",
+		},
+	},
+	blockmaterial: "Stone",
+	drawtype: "json",
+	texturesbytype: {
+		"*-good": {
+			all: { 
+				base: "block/shiny{type}texture",
+			},
+		},
+		"*-used": {
+			all: { 
+				base: "block/shiny{type}texture",
+				alternates: [{base: "block/shiny{type}texture1" }, {base: "block/shiny{type}texture2" }, {base: "block/shiny{type}texture3" }],
+			},
+		},
+	},
+	resistance: 3.5,
+	sounds: {
+		"place": "game:block/anvil",
+		"walk": "game:walk/stone"
+	},
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+}

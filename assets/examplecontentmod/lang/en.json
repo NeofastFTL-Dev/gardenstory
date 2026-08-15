@@ -1,0 +1,12 @@
+{
+	"block-simplyshinyblock": "(Example Mod) Simple Gold Block",
+	"block-advancedshinyblock-gold-good": "(Example Mod) Gold Pillar",
+	"block-advancedshinyblock-gold-used": "(Example Mod) Old Gold Pillar",
+	"block-advancedshinyblock-iron-good": "(Example Mod) Iron Pillar",
+	"block-advancedshinyblock-iron-used": "(Example Mod) Old Iron Pillar",
+
+	"item-simplewand": "(Example Mod) Simple Wand",
+	"item-advancedwand-blue": "(Example Mod) Blue Wand",
+	"item-advancedwand-red": "(Example Mod) Red Wand",
+	"item-advancedwand-green": "(Example Mod) Green Wand"
+}
